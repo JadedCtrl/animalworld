@@ -99,7 +99,7 @@ mobs:alias_mob("animalworld:wasp", "animalworld:wasp")
 	})
 
 minetest.register_node("animalworld:waspnest", {
-    description = S"Wasp Nest",
+    description = S("Wasp Nest"),
     visual_scale = 0.5,
     mesh = "Waspnest.b3d",
     tiles = {"texturewaspnest.png"},

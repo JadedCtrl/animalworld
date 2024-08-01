@@ -115,7 +115,7 @@ minetest.register_craft({
 	})
 
 minetest.register_node("animalworld:anthill", {
-    description = S"Anthill",
+    description = S("Anthill"),
     visual_scale = 0.5,
     mesh = "Anthil.b3d",
     tiles = {"textureanthil.png"},

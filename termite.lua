@@ -102,7 +102,7 @@ minetest.register_craftitem(":animalworld:termitequeen", {
 	})
 
 minetest.register_node("animalworld:termitemould", {
-    description = S"Termite Mound",
+    description = S("Termite Mound"),
     visual_scale = 1,
     mesh = "Termitemould.b3d",
     tiles = {"texturetermitemould.png"},
