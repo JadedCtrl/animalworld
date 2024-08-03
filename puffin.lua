@@ -52,7 +52,7 @@ stepheight = 3,
 		die_rotate = true,
 	},
 
-fly_in = {"air", "default:water_source", "default:river_water_source", "mcl_core:water_source", "mcl_core:water_flowing"},
+fly_in = "group:water",
 	floats = 0,
 	follow = {
 		"animalworld:rawfish", "mcl_fishing:pufferfish_raw", "mobs:clownfish_raw", "mobs:bluefish_raw", "fishing:bait_worm", "fishing:clownfish_raw", "fishing:bluewhite_raw", "fishing:exoticfish_raw", "fishing:fish_raw", "fishing:carp_raw", "fishing:perch_raw", "xocean:fish_edible"

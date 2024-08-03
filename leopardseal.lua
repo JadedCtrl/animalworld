@@ -52,7 +52,7 @@ stepheight = 1,
 		die_loop = false,
 		die_rotate = true,
 	},
-	fly_in = {"default:water_source", "default:water_flowing", "default:river_water_flowing", "default:river_water", "mcl_core:water_source", "mcl_core:water_flowing",},
+	fly_in = "group:water",
 	floats = 0,
 	follow = {
 		"ethereal:fish_raw", "mcl_mobitems:chicken", "mcl_fishing:pufferfish_raw", "mcl_mobitems:rotten_flesh", "mcl_mobitems:mutton", "mcl_mobitems:beef", "mcl_mobitems:porkchop", "mcl_mobitems:rabbit", "animalworld:rawfish", "mobs_fish:tropical",

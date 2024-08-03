@@ -40,7 +40,7 @@ mobs:register_mob("animalworld:iguana", {
 		{name = "mobs:meat_raw", chance = 1, min = 1, max = 1},
 	        {name = "mobs:leather", chance = 1, min = 0, max = 2},
 	},
-	fly_in = {"default:water_source", "default:river_water_source", "default:water_flowing", "default:river_water_flowing", "mcl_core:water_source", "mcl_core:water_flowing"},
+	fly_in = "group:water",
 	floats = 0,
 	water_damage = 0,
 	lava_damage = 5,

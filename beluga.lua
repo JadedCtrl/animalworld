@@ -31,7 +31,7 @@ mobs:register_mob("animalworld:beluga", {
 	walk_velocity = 2,
 	run_velocity = 5,
 	fly = true,
-	fly_in = "default:water_source", "default:river_water_source", "default:water_flowing", "default:river_water_flowing", "mcl_core:water_source", "mcl_core:water_flowing",
+	fly_in = "group:water",
 	fall_speed = 0,
 	jump = true,
 	jump_height = 0,

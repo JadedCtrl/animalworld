@@ -59,7 +59,7 @@ stepheight = 2,
 		die_rotate = true,
 	},
 
-fly_in = {"default:water_source", "default:river_water_source", "default:water_flowing", "default:river_water_flowing", "mcl_core:water_source", "mcl_core:water_flowing"},
+fly_in = "group:water",
 	floats = 0,
 	follow = {
 		"ethereal:banana_single", "mcl_farming:beetroot_item", "mcl_farming:carrot_item", "mcl_farming:melon_item", "mcl_farming:potato_item", "mcl_farming:pumpkin_item", "mcl_farming:wheat_item", "mcl_farming:sweet_berry", "farming:corn_cob", "farming:cabbage",

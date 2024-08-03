@@ -36,7 +36,7 @@ mobs:register_mob("animalworld:lobster", {
 	drops = {
 		{name = "animalworld:raw_athropod", chance = 1, min = 0, max = 2},
 	},
-	fly_in = {"default:water_source", "default:river_water_source", "default:water_flowing", "default:river_water_flowing", "mcl_core:water_source", "mcl_core:water_flowing"},
+	fly_in = "group:water",
 	floats = 0,
 	follow = {
 		"ethereal:fish_raw", "animalworld:rawfish", "mobs_fish:tropical",

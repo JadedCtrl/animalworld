@@ -33,7 +33,7 @@ mobs:register_mob("animalworld:polarbear", {
 		{name = "mobs:meat_raw", chance = 1, min = 1, max = 1},
 		{name = "animalworld:polarbearcorpse", chance = 7, min = 1, max = 1},
 	},
-        fly_in = {"default:water_source", "default:water_flowing", "default:river_water_flowing", "default:river_water",  "mcl_core:water_source", "mcl_core:water_flowing"},
+        fly_in = "group:water",
 	water_damage = 0,
 	lava_damage = 4,
 	light_damage = 0,

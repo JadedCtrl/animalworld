@@ -54,7 +54,7 @@ sounds = {
 		die_loop = false,
 		die_rotate = true,
 	},
-	fly_in = {"default:water_source", "default:river_water_source", "default:water_flowing", "default:river_water_flowing", "mcl_core:water_source", "mcl_core:water_flowing"},
+	fly_in = "group:water",
 	floats = 0,
 	follow = {"animalworld:cockroach", "bees:frame_full", "animalworld:fishfood", "animalworld:ant", "animalworld:termite", "animalworld:bugice", "animalworld:termitequeen", "animalworld:notoptera", "animalworld:anteggs_raw"},
 	view_range = 6,

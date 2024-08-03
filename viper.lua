@@ -59,7 +59,7 @@ mobs:register_mob("animalworld:viper", {
 		die_rotate = true,
 	},
 
-	fly_in = {"default:water_source", "default:river_water_source", "default:water_flowing", "mcl_core:water_source", "mcl_core:water_flowing"},
+	fly_in = "group:water",
 	floats = 0,
 })
 
